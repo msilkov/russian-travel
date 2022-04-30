@@ -1,0 +1,10 @@
+.header__lang-link {
+  margin-left: 18px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.1;
+}
+
+.header__lang-link.active {
+  text-decoration: underline;
+}
