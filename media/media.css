@@ -14,6 +14,20 @@
   .lead__caption {
     margin: 8px 0 0;
   }
+
+  .intro {
+    max-width: 375px;
+    margin: 0 auto 75px;
+  }
+
+  .intro__title {
+    font-size: 36px;
+  }
+
+  .intro__text {
+    max-width: 375px;
+    margin-bottom: 33px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -52,6 +66,21 @@
   .lead__caption {
     margin: 8px 0 0 24px;
   }
+
+  .intro {
+    max-width: 720px;
+    margin: 0 auto 88px;
+  }
+
+  .intro__title {
+    max-width: 720px;
+    font-size: 54px;
+    line-height: 1.07;
+  }
+
+  .intro__text {
+    max-width: 720px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -71,6 +100,19 @@
     margin: 8px 0 0;
   }
 
+  .intro {
+    max-width: 928px;
+    margin: 0 auto 92px;
+  }
+
+  .intro__title {
+    max-width: 690px;
+  }
+
+  .intro__text {
+    max-width: 690px;
+  }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -87,6 +129,9 @@
     margin: 0 auto 64px;
   }
 
+  .intro {
+    max-width: 984px;
+  }
 
 }
 
