@@ -28,6 +28,28 @@
     max-width: 375px;
     margin-bottom: 33px;
   }
+
+  .places {
+    max-width: 375px;
+  }
+
+  .place__title {
+    font-size: 38px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .place__website {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+
+  .place__paragraph {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
 }
 
 /* 425px end */
@@ -108,19 +130,6 @@
     font-weight: 900;
     font-size: 42px;
     line-height: 1.1;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .place__website {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-
-  .place__paragraph {
-    padding-left: 0;
-    padding-right: 0;
   }
 
 }
