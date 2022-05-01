@@ -1,0 +1,10 @@
+.place__title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.09;
+  margin: 0;
+  max-width: 320px;
+  padding-left: 16px;
+  padding-right: 16px;
+  align-self: end;
+}
