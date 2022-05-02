@@ -132,6 +132,33 @@
     line-height: 1.1;
   }
 
+  .cover {
+    min-height: 480px;
+    margin-bottom: 88px;
+  }
+
+  .cover__title {
+    max-width: 560px;
+    font-size: 72px;
+    line-height: 1.06;
+    margin: 0 auto 32px;
+    padding-top: 115px;
+  }
+
+  .cover__subtitle {
+    max-width: 360px;
+    font-size: 18px;
+    line-height: 1.22;
+  }
+
+  .cover__overlay {
+    padding-bottom: 480px;
+  }
+
+  .cover__background {
+    padding-bottom: 480px;
+  }
+
 }
 
 /* 768px end */
@@ -196,6 +223,24 @@
     font-size: 18px;
     margin-bottom: 26px;
   }
+
+  .cover {
+    min-height: 640px;
+    margin-bottom: 92px;
+  }
+
+  .cover__title {
+    padding-top: 195px;
+  }
+
+  .cover__overlay {
+    padding-bottom: 640px;
+  }
+
+  .cover__background {
+    padding-bottom: 640px;
+  }
+
 }
 
 /* 1024px end */
@@ -233,6 +278,23 @@
     margin-bottom: 80px;
   }
 
+  .cover {
+    max-width: 1184px;
+    min-height: 740px;
+    margin: 0 auto 92px;
+  }
+
+  .cover__title {
+    padding-top: 245px;
+  }
+
+  .cover__overlay {
+    padding-bottom: 740px;
+  }
+
+  .cover__background {
+    padding-bottom: 740px;
+  }
 
 }
 

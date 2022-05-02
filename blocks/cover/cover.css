@@ -1,0 +1,17 @@
+.cover {
+  position: relative;
+  max-width: 100vw;
+  min-height: 200px;
+  margin-bottom: 64px;
+}
+
+.cover:hover .cover__overlay {
+  opacity: .8;
+}
+
+
+
+
+
+
+
