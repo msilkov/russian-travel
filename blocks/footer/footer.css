@@ -8,41 +8,9 @@
   align-items: flex-start;
 }
 
-.navigation {
-  margin-bottom: 48px;
-}
 
-.footer__nav {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
 
-.footer__nav-item {
-  margin-bottom: 32px;
-}
 
-.footer__nav-item:last-of-type {
-  margin-bottom: 0;
-}
 
-.footer__link {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 1;
-  color: #FFFFFF;
-  opacity: 1;
-  transition: all .3s;
-}
 
-.footer__link:hover {
-  opacity: .8;
-}
 
-.footer__copyright {
-  margin: 0;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1;
-}
