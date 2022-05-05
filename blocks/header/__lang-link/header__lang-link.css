@@ -9,3 +9,16 @@
 .header__lang-link.active {
   text-decoration: underline;
 }
+
+@media screen and (min-width: 768px) {
+
+  .header__lang-link {
+    margin-left: 18px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+  }
+
+}
+
+/* 768px end */

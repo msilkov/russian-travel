@@ -6,3 +6,34 @@
   margin-top: 0;
   margin-bottom: 34px;
 }
+
+@media screen and (min-width: 425px) {
+
+  .intro__text {
+    max-width: 375px;
+    margin-bottom: 33px;
+  }
+
+}
+
+/* 425px end */
+
+@media screen and (min-width: 768px) {
+
+  .intro__text {
+    max-width: 720px;
+  }
+
+}
+
+/* 768px end */
+
+@media screen and (min-width: 1024px) {
+
+  .intro__text {
+    max-width: 690px;
+  }
+
+}
+
+/* 1024px end */

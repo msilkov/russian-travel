@@ -6,3 +6,26 @@
   margin: 0 auto 40px;
   max-width: 288px;
 }
+
+@media screen and (min-width: 768px) {
+
+  .lead__subtitle {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0 auto 56px;
+    max-width: 640px;
+  }
+
+}
+
+/* 768px end */
+
+@media screen and (min-width: 1280px) {
+
+  .lead__subtitle {
+    margin: 0 auto 64px;
+  }
+
+}
+
+/* 1280px end */

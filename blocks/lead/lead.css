@@ -6,9 +6,42 @@
   align-items: center;
 }
 
+@media screen and (min-width: 425px) {
 
+  .lead {
+    max-width: 375px;
+  }
 
+}
 
+/* 425px end */
 
+@media screen and (min-width: 768px) {
 
+  .lead {
+    max-width: 768px;
+  }
 
+}
+
+/* 768px end */
+
+@media screen and (min-width: 1024px) {
+
+  .lead {
+    max-width: 928px;
+  }
+
+}
+
+/* 1024px end */
+
+@media screen and (min-width: 1280px) {
+
+  .lead {
+    max-width: 984px;
+  }
+
+}
+
+/* 1280px end */

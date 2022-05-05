@@ -8,3 +8,36 @@
   padding-right: 16px;
   align-self: end;
 }
+@media screen and (min-width: 425px) {
+  
+  .place__title {
+    font-size: 38px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+/* 425px end */
+
+@media screen and (min-width: 768px) {
+  
+  .place__title {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+}
+/* 768px end */
+
+@media screen and (min-width: 1024px) {
+ 
+  .place__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1.06;
+    max-width: 460px;
+  }
+
+}
+/* 1024px end */

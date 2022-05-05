@@ -12,9 +12,36 @@
   cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {
 
+  .cover {
+    min-height: 480px;
+    margin-bottom: 88px;
+  }
 
+}
 
+/* 768px end */
 
+@media screen and (min-width: 1024px) {
 
+  .cover {
+    min-height: 640px;
+    margin-bottom: 92px;
+  }
 
+}
+
+/* 1024px end */
+
+@media screen and (min-width: 1280px) {
+
+  .cover {
+    max-width: 1184px;
+    min-height: 740px;
+    margin: 0 auto 92px;
+  }
+
+}
+
+/* 1280px end */

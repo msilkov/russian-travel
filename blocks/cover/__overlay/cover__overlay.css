@@ -10,3 +10,33 @@
   transition: all .5s;
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+
+  .cover__overlay {
+    padding-bottom: 480px;
+  }
+
+}
+
+/* 768px end */
+
+@media screen and (min-width: 1024px) {
+
+  .cover__overlay {
+    padding-bottom: 640px;
+  }
+
+}
+
+/* 1024px end */
+
+@media screen and (min-width: 1280px) {
+ 
+  .cover__overlay {
+    padding-bottom: 740px;
+  }
+
+}
+
+/* 1280px end */

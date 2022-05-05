@@ -8,9 +8,45 @@
   align-items: flex-start;
 }
 
+@media screen and (min-width: 425px) {
 
+  .footer {
+    max-width: 375px;
+  }
 
+}
 
+/* 425px end */
 
+@media screen and (min-width: 768px) {
 
+  .footer {
+    max-width: 720px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
 
+}
+
+/* 768px end */
+
+@media screen and (min-width: 1024px) {
+
+  .footer {
+    max-width: 928px;
+  }
+
+}
+
+/* 1024px end */
+
+@media screen and (min-width: 1280px) {
+
+  .footer {
+    max-width: 1184px;
+  }
+
+}
+
+/* 1280px end */

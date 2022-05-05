@@ -5,3 +5,26 @@
   text-align: center;
   margin: 0 auto 16px;
 }
+
+
+@media screen and (min-width: 768px) {
+
+  .lead__title {
+    font-size: 96px;
+    line-height: 1.04;
+    margin: 0 auto 32px;
+  }
+
+}
+
+/* 768px end */
+
+@media screen and (min-width: 1024px) {
+
+  .lead__title {
+    font-size: 96px;
+  }
+
+}
+
+/* 1024px end */

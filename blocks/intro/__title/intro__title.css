@@ -6,3 +6,35 @@
   margin-top: 0;
   margin-bottom: 40px;
 }
+
+@media screen and (min-width: 425px) {
+
+  .intro__title {
+    font-size: 36px;
+  }
+
+}
+
+/* 425px end */
+
+@media screen and (min-width: 768px) {
+
+  .intro__title {
+    max-width: 720px;
+    font-size: 54px;
+    line-height: 1.07;
+  }
+
+}
+
+/* 768px end */
+
+@media screen and (min-width: 1024px) {
+
+  .intro__title {
+    max-width: 690px;
+  }
+
+}
+
+/* 1024px end */
