@@ -8,6 +8,7 @@
   margin-bottom: 25px;
   padding-left: 16px;
   padding-right: 16px;
+  text-align: left;
 }
 
 .place__paragraph:last-of-type {
@@ -22,6 +23,7 @@
   }
 
 }
+
 /* 768px end */
 
 @media screen and (min-width: 1024px) {
@@ -32,4 +34,5 @@
   }
 
 }
+
 /* 1024px end */

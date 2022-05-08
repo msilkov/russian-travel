@@ -1,20 +1,24 @@
 .cover__overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
+  display: block;
   width: 100%;
-  padding-bottom: 200px;
-  background: #2A2C2F;
-  opacity: .3;
+  min-height: 200px;
+  background: rgba(42, 44, 47, 0.3);
   transition: all .5s;
   cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
+
+.cover__overlay:hover {
+  background: rgba(42, 44, 47, 0.8);
+}
+
 
 @media screen and (min-width: 768px) {
 
   .cover__overlay {
-    padding-bottom: 480px;
+    min-height: 480px;
+
   }
 
 }
@@ -24,7 +28,8 @@
 @media screen and (min-width: 1024px) {
 
   .cover__overlay {
-    padding-bottom: 640px;
+    min-height: 640px;
+
   }
 
 }
@@ -32,9 +37,9 @@
 /* 1024px end */
 
 @media screen and (min-width: 1280px) {
- 
+
   .cover__overlay {
-    padding-bottom: 740px;
+    min-height: 740px;
   }
 
 }
